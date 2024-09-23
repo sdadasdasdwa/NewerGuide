@@ -69,7 +69,12 @@ public class MainActivity extends Activity implements View
                     .setLabel("guide1")
                     .addGuidePage(GuidePage.newInstance()
                             .addHighLight(bt1)
-                            .setLayoutResId(R.layout.view_guide_simple));
+                            .setLayoutResId(R.layout.view_guide_simple))
+                    .show();
         }
+
+
+
+
     }
 }
