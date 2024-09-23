@@ -31,7 +31,6 @@ public class MainActivity extends Activity implements View
 
         initView();
         initData();
-        initEvent();
 
 
     }
@@ -61,9 +60,6 @@ public class MainActivity extends Activity implements View
         bt9.setOnClickListener(this);
     }
 
-    private void initEvent(){
-
-    }
 
     @Override
     public void onClick(View v) {

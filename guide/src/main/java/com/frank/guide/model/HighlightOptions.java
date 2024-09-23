@@ -7,32 +7,26 @@ package com.frank.guide.model;
  */
 public class HighlightOptions {
 
-    private RelativeGuide relativeGuide ;
+    private RelativeGuide relativeGuide;
 
-    public static class Builder{
+    public static class Builder {
 
         private HighlightOptions highlightOptions;
 
 
-        public Builder(){
+        public Builder() {
             highlightOptions = new HighlightOptions();
         }
 
-        public Builder setRelativeGuide(RelativeGuide relativeGuide){
+        public Builder setRelativeGuide(RelativeGuide relativeGuide) {
             highlightOptions.relativeGuide = relativeGuide;
             return this;
         }
 
-        public HighlightOptions build(){
+        public HighlightOptions build() {
             return highlightOptions;
         }
-
-
-
-
     }
-
-
 
 
 }
